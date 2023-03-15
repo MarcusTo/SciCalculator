@@ -391,7 +391,58 @@
             Text="."
             Command="{Binding NumberInputCommand}" 
             CommandParameter="."/>
+        <Button
+            Grid.Row="9"
+            Grid.Column="3"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="⌫"
+            Command="{Binding BackspaceCommand}" />
+        
+        <!--Horizontal Border Line-->
+        <BoxView
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+        <BoxView
+            Grid.Row="7"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+        <BoxView
+            Grid.Row="8"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+        
+        <!--Vertical Border Line-->
 
+        <BoxView
+            Grid.Row="6"
+            Grid.Column="4"
+            Grid.ColumnSpan="0"
+            HorizontalOptions="End"
+            VerticalOptions="Fill"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+        <BoxView
+            Grid.Row="6"
+            Grid.Column="4"
+            Grid.ColumnSpan="1"
+            HorizontalOptions="End"
+            VerticalOptions="Fill"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+        
 
 
     </Grid>
