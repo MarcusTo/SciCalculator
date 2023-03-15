@@ -1,4 +1,6 @@
-﻿namespace SciCalculator;
+﻿using Microsoft.Maui.Accessibility;
+
+namespace SciCalculator;
 
 public partial class MainPage : ContentPage
 {
